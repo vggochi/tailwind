@@ -10,6 +10,9 @@
             darkMode: 'class',
         }
     </script>
+    <style type="text/tailwindcss">
+      @variant dark (&:where(.dark, .dark *));
+      </style>
   </head>
   <body class="bg-slate-50 dark:bg-slate-900 transition-colors duration-300 min-h-screen flex flex-col items-center p-6">
 
@@ -76,3 +79,4 @@ text-center max-w-sm">
 </script>
 
 </html>
+
